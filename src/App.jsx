@@ -18,7 +18,6 @@ export default function App() {
     () => [
       { k: "Go to Projects", hint: "#projects", run: () => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" }) },
       { k: "Go to Experience", hint: "#experience", run: () => document.querySelector("#experience")?.scrollIntoView({ behavior: "smooth" }) },
-      { k: "Go to Services", hint: "#services", run: () => document.querySelector("#services")?.scrollIntoView({ behavior: "smooth" }) },
       { k: "Email me", hint: "mailto:algetes2004@gmail.com", run: () => (window.location.href = "mailto:algetes2004@gmail.com") },
       { k: "Open Résumé", hint: "/ALGETS.pdf", run: () => window.open("/ALGETS.pdf", "_blank") },
       { k: "GitHub", hint: "https://github.com/Algets07", run: () => window.open("https://github.com/Algets07", "_blank") },
