@@ -234,7 +234,7 @@ export default function App() {
       { name: "IBM Artificial Intelligence", org: "IBM Skills" },
       { name: "Full Stack development", org: "KK academy" },
       { name: "cloud computing", org: "oracle" },
-      { name: "Block development", org: " NSE academy" },
+      { name: "Block Chain development", org: " NSE academy" },
 
     ].map((c) => (
       <div key={c.name} className="rounded-2xl border border-white/10 p-5 bg-white/[0.03]">
